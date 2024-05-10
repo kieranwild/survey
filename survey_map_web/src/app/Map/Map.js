@@ -2,6 +2,8 @@
 import 'leaflet/dist/leaflet.css'
 import { MapContainer, TileLayer } from 'react-leaflet'
 
+const API_URL = "http://localhost:3000/api/v1/comments"
+
 function Map() {
     return (
         <MapContainer center={[55.9193, -4.7666]} zoom={13} scrollWheelZoom={true}>
